@@ -4,8 +4,18 @@ import pandas as pd
 
 # Define global variables for column mappings
 COLUMN_MAPPINGS = {
-    'x': 'a',
-    'y': 'b'
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email_1": "E-mail Address",
+    "email_2": "Other E-mail",
+    "email_3": "E-mail 3 Address",
+    "phone_1": "Mobile Phone",
+    "phone_2": "Other Phone",
+    "address": "Home Street",
+    "city": "Home City",
+    "state": "Home State",
+    "zip_code": "Home Postal Code",
+    "household_income": "Extra Details"
 }
 
 
